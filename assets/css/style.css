@@ -1,0 +1,385 @@
+:root {
+    --primary-blue: #1E4FA3;
+    --dark-blue: #0F2F6D;
+    --accent-red: #D62828;
+    --accent-gold: #F4B400;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    background-color: var(--primary-blue);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--accent-gold) !important;
+}
+
+.hero {
+    background: linear-gradient(rgba(30,79,163,0.8), rgba(15,47,109,0.8)),
+    url('../images/logo.png') center/contain no-repeat;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.btn-school {
+    background-color: var(--accent-red);
+    color: white;
+}
+
+.btn-school:hover {
+    background-color: #b71c1c;
+    color: white;
+}
+
+.section-title {
+    color: var(--primary-blue);
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.slider-img {
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.carousel-caption {
+    bottom: 30%;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+    color: #fff;
+}
+
+.time-box {
+    background-color: #D62828;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.time-box h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.time-box small {
+    font-size: 0.8rem;
+}
+
+.admissions-cta {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+    color: white;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.cta-text {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+.admissions-cta .btn-outline-light:hover {
+    background-color: #F4B400;
+    border-color: #F4B400;
+    color: #000;
+}
+
+
+.director-section {
+    background-color: #f8f9fa;
+}
+
+.director-img {
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.director-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.section-title {
+    color: #1E4FA3;
+    font-weight: bold;
+}
+
+.philosophy-section {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+    color: #ffffff;
+}
+
+.philosophy-section p {
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.philosophy-subtitle {
+    color: #F4B400;
+    font-weight: 600;
+}
+
+.philosophy-section .section-title {
+    color: #ffffff;
+}
+
+
+.vision-mission {
+    background-color: #f8f9fa;
+}
+
+.vm-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #1E4FA3;
+    transition: 0.3s ease;
+}
+
+.vm-card:hover {
+    transform: translateY(-5px);
+}
+
+.vm-title {
+    color: #1E4FA3;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.vm-subtitle {
+    color: #F4B400;
+    font-weight: 600;
+}
+
+.core-values {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+    color: white;
+}
+
+.values-subtitle {
+    color: #F4B400;
+    font-weight: 600;
+}
+
+.value-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px 20px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.value-card:hover {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateY(-5px);
+}
+
+.value-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.value-card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stats-section {
+    background: linear-gradient(135deg, #0F2F6D, #1E4FA3);
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 20px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.stat-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F4B400; /* gold accent */
+}
+
+.stat-card p {
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.why-choose {
+    background-color: #f8f9fa;
+}
+
+.why-subtitle {
+    color: #F4B400;
+    font-weight: 600;
+}
+
+.why-card {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+}
+
+.why-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #1E4FA3;
+}
+
+.why-card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1E4FA3;
+}
+
+.programs-section {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+    color: white;
+}
+
+.programs-subtitle {
+    color: #F4B400;
+}
+
+.program-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.program-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.program-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.gallery-img {
+    height: 220px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.testimonials-section {
+    background: linear-gradient(135deg, #0F2F6D, #1E4FA3);
+}
+
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.testimonial-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.testimonial-card h6 {
+    margin-top: 15px;
+    color: #F4B400;
+}
+
+.page-banner {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+}
+
+.about-philosophy {
+    background: linear-gradient(135deg, #0F2F6D, #1E4FA3);
+}
+
+.about-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.page-banner {
+    background: linear-gradient(rgba(30,79,163,0.8), rgba(15,47,109,0.8)),
+    url('../images/logo.jpeg') center/cover no-repeat;
+    height: 60vh;
+}
+
+.timeline-section {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.1);
+    border-left: 4px solid #F4B400;
+    color: white;
+}
+
+.admin-section {
+    background: linear-gradient(135deg, #0F2F6D, #1E4FA3);
+}
+
+.admin-card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.awards-section {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+}
+
+.award-card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}

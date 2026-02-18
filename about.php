@@ -1,0 +1,198 @@
+<?php include("includes/header.php"); ?>
+
+<!-- ================== PAGE BANNER ================== -->
+<section class="page-banner d-flex align-items-center text-center text-light">
+  <div class="container">
+    <h1 class="display-4 fw-bold">About NBCDEJHS</h1>
+    <p class="lead">Quality Education, Discipline & Hard Work</p>
+  </div>
+</section>
+
+<!-- ================== SCHOOL OVERVIEW ================== -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4">
+        <img src="assets/images/slider1.jpeg" 
+             class="img-fluid rounded shadow"
+             alt="School Building">
+      </div>
+
+      <div class="col-md-6">
+        <h2 class="section-title">Our History</h2>
+        <p>
+          New Born Christian Daycare, Elementary and Junior High School
+          (NBCDEJHS) was established on March 2, 2015 in the Old Iron Gate
+          Community of Gbarnga City, Bong County.
+        </p>
+        <p>
+          The school was founded to provide quality, meaningful, and
+          value-based education rooted in Christian principles.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================== TIMELINE ================== -->
+<section class="timeline-section py-5">
+  <div class="container">
+    <h2 class="text-center text-light mb-5">Our Growth Journey</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <h5>2015</h5>
+        <p>School officially established with Daycare and Elementary levels.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>2018</h5>
+        <p>Expansion of facilities and increased enrollment.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>2020</h5>
+        <p>Introduction of Junior High School program.</p>
+      </div>
+
+      <div class="timeline-item">
+        <h5>Today</h5>
+        <p>Serving hundreds of students with a strong academic and spiritual foundation.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================== PRINCIPAL MESSAGE ================== -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-4 text-center mb-4">
+        <img src="assets/images/placeholder.jpeg"
+             class="img-fluid rounded-circle shadow"
+             width="250">
+      </div>
+
+      <div class="col-md-8">
+        <h2 class="section-title">Principal’s Message</h2>
+        <p>
+          At NBCDEJHS, we are committed to nurturing students spiritually,
+          intellectually, and socially. Our Christ-centered philosophy
+          ensures that every learner grows in faith, discipline, and excellence.
+        </p>
+        <p>
+          We believe education is not only preparation for a career but
+          preparation for life and eternity.
+        </p>
+        <strong>– School Principal</strong>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================== ADMINISTRATIVE TEAM ================== -->
+<section class="admin-section py-5 text-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Administrative Team</h2>
+
+    <div class="row g-4 text-center">
+
+      <div class="col-md-3">
+        <div class="admin-card">
+          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Director</h6>
+          <p>School Leadership</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="admin-card">
+          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Vice Principal</h6>
+          <p>Academic Affairs</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="admin-card">
+          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Dean of Students</h6>
+          <p>Student Discipline</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="admin-card">
+          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Academic Coordinator</h6>
+          <p>Curriculum & Development</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================== SCHOOL ANTHEM ================== -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title mb-4">School Anthem</h2>
+    <p>
+      (Insert official school anthem lyrics here)
+    </p>
+  </div>
+</section>
+
+<!-- ================== AWARDS ================== -->
+<section class="awards-section py-5">
+  <div class="container text-center">
+    <h2 class="text-light mb-4">Awards & Achievements</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="award-card">
+          <h5>Academic Excellence Award</h5>
+          <p>Recognized for outstanding academic performance.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="award-card">
+          <h5>Community Service Recognition</h5>
+          <p>Active participation in community outreach programs.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="award-card">
+          <h5>Leadership Development Award</h5>
+          <p>Promoting leadership among students.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================== GOOGLE MAP ================== -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title mb-4">Our Location</h2>
+
+    <iframe 
+      src="https://www.google.com/maps?q=Gbarnga,BongCounty,Liberia&output=embed"
+      width="100%" 
+      height="400" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<?php include("includes/footer.php"); ?>
