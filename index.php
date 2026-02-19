@@ -1,5 +1,6 @@
 <?php include("includes/header.php"); ?>
 
+
 <section id="homeSlider">
     <div id="mainCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
 

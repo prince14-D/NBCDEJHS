@@ -17,10 +17,26 @@
 <link rel="icon" type="image/jpeg" sizes="16x16" href="assets/images/favicon.jpeg">
 <link rel="shortcut icon" href="assets/images/favicon.jpeg">
 
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1E4FA3">
+    <!-- iOS / Apple touch icon and web app meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="NBCDEJHS">
+    <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+
 
 
 </head>
 <body>
+
+<?php if (basename($_SERVER['PHP_SELF']) === 'index.php'): ?>
+<div id="splash-screen">
+    <img src="assets/images/icon-192.png" alt="NBCDEJHS Logo">
+    <h3>New Born Christian School</h3>
+</div>
+<?php endif; ?>
+
 
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
@@ -48,6 +64,10 @@
             <a href="eportal/login.php" class="btn btn-warning fw-bold">
                 E-Portal
             </a>
+        </li>
+        <!-- Install Button (appears when browser fires beforeinstallprompt) -->
+        <li class="nav-item ms-2 mt-2 mt-lg-0">
+            <button id="installBtn" class="btn btn-outline-light fw-bold" style="display:none;">Install App</button>
         </li>
     </ul>
 </div>
