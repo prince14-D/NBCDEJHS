@@ -127,9 +127,9 @@
 
       <div class="col-md-3">
         <div class="admin-card">
-          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
-          <h6>Academic Coordinator</h6>
-          <p>Curriculum & Development</p>
+          <img src="assets/images/Registrar.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Mrs.Beatrice Karngboe</h6>
+          <p>Registrar</p>
         </div>
       </div>
 
