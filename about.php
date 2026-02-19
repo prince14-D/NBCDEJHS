@@ -71,7 +71,7 @@
     <div class="row align-items-center">
 
       <div class="col-md-4 text-center mb-4">
-        <img src="assets/images/placeholder.jpeg"
+        <img src="assets/images/Principal.jpeg"
              class="img-fluid rounded-circle shadow"
              width="250">
       </div>
@@ -87,7 +87,7 @@
           We believe education is not only preparation for a career but
           preparation for life and eternity.
         </p>
-        <strong>– School Principal</strong>
+        <strong>Mrs. Esther G.B. Gbailai– School Principal</strong>
       </div>
 
     </div>
@@ -103,25 +103,25 @@
 
       <div class="col-md-3">
         <div class="admin-card">
-          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
-          <h6>Director</h6>
-          <p>School Leadership</p>
+          <img src="assets/images/VPA.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Mr.Moses A.Massaquoi </h6>
+          <p>V.P Administration</p>
         </div>
       </div>
 
       <div class="col-md-3">
         <div class="admin-card">
-          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
-          <h6>Vice Principal</h6>
-          <p>Academic Affairs</p>
+          <img src="assets/images/VPI.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Mr.J.Titus Yekeayen </h6>
+          <p>V.P Instruction</p>
         </div>
       </div>
 
       <div class="col-md-3">
         <div class="admin-card">
-          <img src="assets/images/placeholder.jpeg" class="img-fluid rounded-circle mb-3" width="150">
-          <h6>Dean of Students</h6>
-          <p>Student Discipline</p>
+          <img src="assets/images/Dean.jpeg" class="img-fluid rounded-circle mb-3" width="150">
+          <h6>Alex Massaquoi</h6>
+          <p>Dean of Students</p>
         </div>
       </div>
 
@@ -194,5 +194,42 @@
     </iframe>
   </div>
 </section>
+
+<!-- Floating Contact Button -->
+<div class="contact-float">
+  
+  <div class="contact-options">
+    <a href="tel:+231886126154" class="contact-item">
+      <i class="bi bi-telephone-fill"></i>
+      <span>Call</span>
+    </a>
+
+    <a href="mailto:info@nbcdejhs.org" class="contact-item">
+      <i class="bi bi-envelope-fill"></i>
+      <span>Email</span>
+    </a>
+
+    <a href="https://wa.me/+231888284875?text=Hello%20NBCDEJHS,%20I%20would%20like%20more%20information%20about%20admission." 
+       target="_blank" 
+       class="contact-item whatsapp">
+      <i class="bi bi-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <button class="contact-toggle" onclick="toggleContact()">
+    <i class="bi bi-chat-dots-fill"></i>
+  </button>
+
+</div>
+
+
+
+<script>
+function toggleContact() {
+    document.querySelector('.contact-options').classList.toggle('show');
+}
+</script>
+
 
 <?php include("includes/footer.php"); ?>

@@ -178,6 +178,10 @@ footer {
     color: white;
 }
 
+.core-values .section-title {
+    color: #ffffff;
+}
+
 .values-subtitle {
     color: #F4B400;
     font-weight: 600;
@@ -270,6 +274,10 @@ footer {
 .programs-section {
     background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
     color: white;
+}
+
+.programs-section .section-title {
+    color: #ffffff;
 }
 
 .programs-subtitle {
@@ -382,4 +390,147 @@ footer {
     padding: 20px;
     border-radius: 10px;
     color: white;
+}
+
+/* Ensure video section title is visible on dark gradient */
+.video-section .section-title {
+    color: #ffffff;
+}
+
+.director-name {
+    font-weight: bold;
+    color: #1E4FA3;
+}
+
+.director-title {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.contact-float {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1000;
+}
+
+.contact-toggle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #1E4FA3;
+    color: white;
+    border: none;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+
+.contact-toggle:hover {
+    background: #0F2F6D;
+}
+
+.contact-options {
+    display: none;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.contact-options.show {
+    display: flex;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.contact-item i {
+    margin-right: 10px;
+}
+
+.contact-item:hover {
+    transform: translateX(-5px);
+}
+
+.contact-item.whatsapp {
+    color: #25D366;
+}
+
+.academic-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.academic-card:hover {
+    transform: translateY(-5px);
+}
+
+.page-banner {
+    background: linear-gradient(rgba(30,79,163,0.8), rgba(15,47,109,0.8)),
+    url('../images/Activity1.jpeg') center/cover no-repeat;
+    height: 60vh;
+}
+
+.table-primary {
+    background-color: #1E4FA3 !important;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f2f6ff;
+}
+
+.process-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.process-card:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-img {
+    cursor: pointer;
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.filter-btn {
+    margin: 5px;
+}
+
+.video-section {
+    background: linear-gradient(135deg, #1E4FA3, #0F2F6D);
+    color: white;
+}
+
+.video-subtitle {
+    color: #F4B400;
+}
+
+.page-banner {
+    background: linear-gradient(rgba(30,79,163,0.8), rgba(15,47,109,0.8)),
+    url('../images/logo.jpeg') center/cover no-repeat;
+    height: 60vh;
 }

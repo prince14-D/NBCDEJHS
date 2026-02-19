@@ -24,7 +24,7 @@
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-                <img src="assets/images/logo.jpeg" class="d-block w-100 slider-img" alt="Students">
+                <img src="assets/images/Activity1.jpeg" class="d-block w-100 slider-img" alt="Students">
                 <div class="carousel-caption">
                     <h1 class="fw-bold">Academic Excellence</h1>
                     <p>Building Future Leaders Since 2015</p>
@@ -111,12 +111,20 @@
   <div class="container">
     <div class="row align-items-center">
 
-      <!-- Director Image -->
-      <div class="col-md-5 text-center mb-4 mb-md-0">
-        <img src="assets/images/placeholder.jpeg" 
-             class="img-fluid rounded shadow director-img" 
-             alt="School Director">
-      </div>
+    <!-- Director Image -->
+<div class="col-md-5 text-center mb-4 mb-md-0">
+  <img src="assets/images/Director’s .jpeg" 
+       class="img-fluid rounded shadow director-img" 
+       alt="School Director">
+
+  <h5 class="director-name mt-3 mb-1">
+    T. Edward Korkollie
+  </h5>
+  <p class="director-title text-muted">
+    School Director
+  </p>
+</div>
+
 
       <!-- Director Message -->
       <div class="col-md-7">
@@ -311,7 +319,7 @@
       <div class="col-lg-6">
         <p>
           The distinctive foundation of NBCDEJHS education is derived from
-          biblical teachings and the writings of Ellen G. White, highlighting
+          Biblical teachings and the writings of Ellen G. White, highlighting
           the redemptive purpose of true education — restoring human beings
           into the image of their Creator.
         </p>
@@ -501,23 +509,23 @@
       </div>
 
       <div class="col-md-4 col-6">
-        <img src="assets/images/logo.jpeg" class="img-fluid rounded shadow-sm gallery-img">
+        <img src="assets/images/Activity1.jpeg" class="img-fluid rounded shadow-sm gallery-img">
       </div>
 
       <div class="col-md-4 col-6">
-        <img src="assets/images/gallery3.jpg" class="img-fluid rounded shadow-sm gallery-img">
+        <img src="assets/images/Activity2.jpeg" class="img-fluid rounded shadow-sm gallery-img">
       </div>
 
       <div class="col-md-4 col-6">
-        <img src="assets/images/gallery4.jpg" class="img-fluid rounded shadow-sm gallery-img">
+        <img src="assets/images/Activity3.jpeg" class="img-fluid rounded shadow-sm gallery-img">
       </div>
 
       <div class="col-md-4 col-6">
-        <img src="assets/images/gallery5.jpg" class="img-fluid rounded shadow-sm gallery-img">
+        <img src="assets/images/Activity4.jpeg" class="img-fluid rounded shadow-sm gallery-img">
       </div>
 
       <div class="col-md-4 col-6">
-        <img src="assets/images/gallery6.jpg" class="img-fluid rounded shadow-sm gallery-img">
+        <img src="assets/images/Activity1.jpeg" class="img-fluid rounded shadow-sm gallery-img">
       </div>
 
     </div>
@@ -582,9 +590,41 @@
 
 
 
+<!-- Floating Contact Button -->
+<div class="contact-float">
+  
+  <div class="contact-options">
+    <a href="tel:+231886126154" class="contact-item">
+      <i class="bi bi-telephone-fill"></i>
+      <span>Call</span>
+    </a>
+
+    <a href="mailto:info@nbcdejhs.org" class="contact-item">
+      <i class="bi bi-envelope-fill"></i>
+      <span>Email</span>
+    </a>
+
+    <a href="https://wa.me/+231888284875?text=Hello%20NBCDEJHS,%20I%20would%20like%20more%20information%20about%20admission." 
+       target="_blank" 
+       class="contact-item whatsapp">
+      <i class="bi bi-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <button class="contact-toggle" onclick="toggleContact()">
+    <i class="bi bi-chat-dots-fill"></i>
+  </button>
+
+</div>
 
 
 
+<script>
+function toggleContact() {
+    document.querySelector('.contact-options').classList.toggle('show');
+}
+</script>
 
 
 

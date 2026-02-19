@@ -10,6 +10,15 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<link rel="icon" type="image/jpeg" sizes="32x32" href="assets/images/favicon.jpeg">
+<link rel="icon" type="image/jpeg" sizes="16x16" href="assets/images/favicon.jpeg">
+<link rel="shortcut icon" href="assets/images/favicon.jpeg">
+
+
+
 </head>
 <body>
 
