@@ -3,6 +3,13 @@
         <p>&copy; <?php echo date("Y"); ?> NBCDEJHS</p>
         <p>Old Iron Gate, Gbarnga City, Bong County - Liberia</p>
         <p><strong>Motto:</strong> Quality Education, Discipline & Hard Work</p>
+        <hr>
+        <p>
+            Developed by 
+            <a href="https://tecliberia.com" target="_blank" style="text-decoration:none; font-weight:bold;">
+                Tec Liberia Group
+            </a>
+        </p>
     </div>
 </footer>
 
