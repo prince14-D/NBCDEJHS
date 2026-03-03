@@ -61,7 +61,7 @@
 
         <!-- E-Portal Button -->
         <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-            <a href="eportal/login.php" class="btn btn-warning fw-bold">
+            <a href="https://portal.nbcdejhs.com/login.php" class="btn btn-warning fw-bold">
                 E-Portal
             </a>
         </li>
